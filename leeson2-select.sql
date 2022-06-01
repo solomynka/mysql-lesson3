@@ -1,0 +1,17 @@
+select * from book;
+select * from book where id = 5 or id =10 or id =13;
+select * from book where pages>150;
+select * from book where autor_age >30;
+select * from book where awards = 'null';
+select * from book where autor_email = 'ceztragic@nevmer.fr';
+select * from book where isbn = 'ps-566';
+select * from book where category = 'трагедія';
+select * from book where pages>200 and autor_age >25;
+select * from book where category = 'комедія';
+select * from book order by name_book asc;
+select * from book order by autor_email asc;
+select * from book order by pages desc;
+SELECT DISTINCT category FROM book;
+SELECT DISTINCT autor_name FROM book;
+select * from book where publication_date > '2000-01-01';
+select * from book where publication_date < '2010-01-01';
